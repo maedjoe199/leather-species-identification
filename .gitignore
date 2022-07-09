@@ -1,0 +1,10 @@
+build_opencv
+papers
+opencv
+opencv_contrib
+images
+.idea/vcs.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/leather-species-identification.iml
+.idea/inspectionProfiles/profiles_settings.xml
