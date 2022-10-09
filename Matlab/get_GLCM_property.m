@@ -27,6 +27,6 @@ function res = get_GLCM_property(property, normalised, sumEntropy, px, py, HXY)
     elseif property == "information_measure_of_correlation_2"
         res = imc2(normalised, px, py, HXY);
     elseif property == "maximal_correlation_coefficients"
-        res = maximal_correlation_coefficients(normalised, px, py);
+        res = mcc(normalised, px, py);
     end
 end

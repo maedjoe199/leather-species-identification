@@ -1,4 +1,4 @@
-function res = maximal_correlation_coefficients(matrix, px, py)
+function res = mcc(matrix, px, py)
 
     [rows, cols] = size(matrix);
     
