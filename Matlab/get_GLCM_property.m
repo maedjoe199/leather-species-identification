@@ -13,7 +13,7 @@ function res = get_GLCM_property(property, normalised, sumEntropy, px, py, HXY)
     elseif property == "sum_average"
         res = sum_average(normalised);
     elseif property == "sum_variance"
-        res = sum_variance(normalised, sumEntropy)
+        res = sum_variance(normalised, sumEntropy);
     elseif property == "sum_entropy"
         res = sumEntropy;
     elseif property == "entropy"
