@@ -3,7 +3,7 @@ function featureVector = saveHOGFiles(fileName, saveAs)
     image = imread(fileName);
     
 %     [featureVector,hogVisualization] = extractHOGFeatures(image);
-    featureVector = extractHOGFeatures(image);
+    featureVector = extractHOGFeatures(image)
     
 %     figure;
 %     imshow(image); 
@@ -11,5 +11,5 @@ function featureVector = saveHOGFiles(fileName, saveAs)
 %     plot(hogVisualization);
     
     T = table(featureVector);
-    writetable(T, saveAs, 'WriteVariableNames', false);
+%     writetable(T, saveAs, 'WriteVariableNames', false);
 end
