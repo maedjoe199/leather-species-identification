@@ -4,11 +4,11 @@ function featureVector = saveHOGFiles(fileName, saveAs)
     
     [featureVector,hogVisualization] = extractHOGFeatures(image);
     
-    figure;
-    imshow(image); 
-    hold on;
-    plot(hogVisualization);
+%     figure;
+%     imshow(image); 
+%     hold on;
+%     plot(hogVisualization);
     
     T = table(featureVector);
-%     writetable(T, saveAs, 'WriteVariableNames', false);
+    writetable(T, saveAs, 'WriteVariableNames', false);
 end
